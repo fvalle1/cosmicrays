@@ -204,7 +204,7 @@ end function
 end program raggi
 
 !********************************************************************************
-!* Copyright (C) 2012  Filippo							*
+!* Copyright (C) 2013  Filippo							*
 !*										*
 !*    This program is free software: you can redistribute it and/or modify	*
 !*    it under the terms of the GNU General Public License as published by	*
