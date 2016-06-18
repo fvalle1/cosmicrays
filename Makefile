@@ -23,5 +23,5 @@ par_zig_mod.o: par_zig_mod.mod
 
 # Make clean
 clean:
-	rm $(OBJ)
+	rm -f $(OBJ)
 
