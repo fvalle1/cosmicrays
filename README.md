@@ -1,8 +1,8 @@
 ![res.png](res.png "Plot")
 # cosmicrays
 ![Fortran](https://img.shields.io/badge/language-Fortran-green.svg)
-[![openmp](https://img.shields.io/badge/requires-open--mp-blue.svg)](http://www.openmp.org/)
-[![Gplv3](https://img.shields.io/badge/license-GPLv3-red.svg)](https://www.gnu.org/licenses/)
+[![openmp](https://img.shields.io/badge/requires-open--mp-orange.svg)](http://www.openmp.org/)
+[![Gplv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/)
 
 This is intended to simulate the distribution of **cosmic ray** coming throw **atmosphere**
 
