@@ -6,14 +6,14 @@
 
 This is intended to simulate the distribution of **cosmic ray** coming throw **atmosphere**
 
-#compile and run
+# compile and run
 compile: `make`
 
 run: `./raggi`
 
 note: you need **openMP** to run in multi proccessors machines.
 
-#how it works
+# how it works
 This generates many rays randomly through **all directions**, then the function:
 ``` fortran
 real function Prob(esse)
@@ -26,7 +26,7 @@ simulates the decadence caused by atmosphere.
 
 
 
-#license
+# license
 [![Gplv3](https://www.gnu.org/graphics/gplv3-88x31.png "Gpl v3")](https://www.gnu.org/licenses/gpl.txt)
 
 For further details see [LICENSE](LICENSE).
