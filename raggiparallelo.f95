@@ -105,7 +105,7 @@ END DO
 !$OMP SINGLE				!Write data
 DO i = 1,m
 	DO j = 1,n
-		WRITE(1,fmt = '(2F10.3,I2)') theta(i, j), phi(i, j)
+		WRITE(1,fmt = '(F5.3,A1,F5.3,I2)') theta(i, j),",", phi(i, j)
 		get(i,j) = .false.
 	END DO
 END DO
@@ -130,7 +130,7 @@ END DO
 !$OMP SINGLE 			!Write data
 DO i = 1,m
 	DO j = 1,n
-		IF (get(i, j)) WRITE(2,fmt = '(2F10.3)') theta(i, j), phi(i, j)
+		IF (get(i, j)) WRITE(2,fmt = '(F5.3, A1, F5.3)') theta(i, j), "," , phi(i, j)
 		get(i,j) = .false.
 	END DO
 END DO
@@ -155,7 +155,7 @@ END DO
 !$OMP SINGLE  			!Write data
 DO i = 1,m
 	DO j = 1,n
-		IF (get(i, j)) WRITE(3,fmt = '(2F10.3)') theta(i, j), phi(i, j)
+		IF (get(i, j)) WRITE(3,fmt = '(F5.3,A1,F5.3)') theta(i, j),",", phi(i, j)
 		get(i,j) = .false.
 	END DO
 END DO
@@ -181,7 +181,7 @@ END DO
 !$OMP SINGLE		!Write data
 DO i = 1,m
 	DO j = 1,n
-		IF (get(i, j)) WRITE(4, fmt = '(2F10.3)') theta(i, j), phi(i, j)
+		IF (get(i, j)) WRITE(4, fmt = '(F5.3,A1,F5.3)') theta(i, j), phi(i, j)
 	END DO
 END DO
 !$OMP END SINGLE

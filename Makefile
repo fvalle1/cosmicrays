@@ -21,6 +21,10 @@ par_zig_mod.o: par_zig_mod.mod
 %.o: %.f90
 	$(FC) $(FCFLAGS) -c $<
 
+
+%.mod: %.f90
+	$(FC) $(FCFLAGS) -c $<
+
 # Make clean
 clean:
 	rm -f $(OBJ)

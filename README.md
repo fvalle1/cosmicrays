@@ -9,7 +9,7 @@ This is intended to simulate the distribution of **cosmic ray** coming throw **a
 # compile and run
 compile: `make`
 
-run: `./raggi`
+run: `./raggi 8 Files 1`
 
 note: you need **openMP** to run in multi proccessors machines.
 
